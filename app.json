@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "authentic-cocktail",
+    "slug": "authentic-cocktail",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#97B8A4"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#97B8A4"
+      },
+      "package": "com.tusharkhatiwada.authenticCocktail"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "authentic-cocktail",
+    "extra": {
+      "eas": {
+        "projectId": "cd558d7e-d18f-4aae-98c1-1c4ed9e787db"
+      }
+    }
+  }
+}
